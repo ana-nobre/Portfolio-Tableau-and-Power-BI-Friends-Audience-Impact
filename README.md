@@ -130,7 +130,30 @@ Code: PROPER([Author])
 // This boolean can drive filters, highlight actions, counts by episode/character,
 // and comparisons against viewership peaks.
 
+Code: CONTAINS(LOWER([Quote]), "how you doin")```tableau
+// Season & Episode 
+// Creates a compact, readable key (e.g., "S2E13") to uniquely identify each episode
+// across the entire series. Useful for labeling charts, building tooltips, joining tables,
+// and enabling quick filtering/search by episode code.
+
+Code: "S" + STR(INT([Season])) + "E" + STR(INT([Episode Number]))
+
+// Standardize character names
+// Source data had inconsistent casing (e.g., "rachel", "RACHEL", "Rachel").
+// PROPER() normalizes to "Rachel", ensuring clean grouping, accurate aggregations,
+// correct sorting, and a polished look in legends/labels.
+
+Code: PROPER([Author])
+
+// Detect iconic quote
+// Flags whether a quote contains Joey’s catchphrase regardless of capitalization.
+// LOWER() standardizes text to lower case; CONTAINS() finds the substring.
+// This boolean can drive filters, highlight actions, counts by episode/character,
+// and comparisons against viewership peaks.
+
 Code: CONTAINS(LOWER([Quote]), "how you doin")
+
+```
 
 ### 🔹 Power BI  
 - **Buttons with Bookmarks** — Add **interactivity** and a clean UX by letting users **toggle between chart states** (e.g., different visuals, views, or filters) within the **same page**. This avoids clutter, keeps context, and supports storytelling (e.g., “Overview” vs “Deep Dive”).  
@@ -152,7 +175,7 @@ IF (
     "Contains OMG",
     "Does not contain"
 )
-
+```
 ---
 
 ## 🎬 Data Storytelling  
