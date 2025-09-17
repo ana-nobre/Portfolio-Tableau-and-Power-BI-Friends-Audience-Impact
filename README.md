@@ -50,11 +50,11 @@ This project explores the audience of the TV series **Friends** across its 10 se
    - Insight: the show averaged **22M–26M viewers per season**, peaking in Season 2.  
    
    🏆 **Top 5 Episodes by Audience (US Nielsen Ratings; counting two‑parters individually):**  
-   1. *“The One After the Superbowl, Part 1”* (S2E12) → **part of 52.9M combined**  
-   2. *“The One After the Superbowl, Part 2”* (S2E13) → **part of 52.9M combined**  
-   3. *“The Last One, Part 1”* (S10E17) → **part of 52.5M combined**  
-   4. *“The Last One, Part 2”* (S10E18) → **part of 52.5M combined**  
-   5. *“The One Where Rachel Has a Baby, Part 2”* (S8E24) → **34.9M viewers**  
+   1 *“The One After the Superbowl, Part 1”* (S2E12) → **part of 52.9M combined**  
+   2 *“The One After the Superbowl, Part 2”* (S2E13) → **part of 52.9M combined**  
+   3 *“The Last One, Part 1”* (S10E17) → **part of 52.5M combined**  
+   4 *“The Last One, Part 2”* (S10E18) → **part of 52.5M combined**  
+   5 *“The One Where Rachel Has a Baby, Part 2”* (S8E24) → **34.9M viewers**  
 
 3. **Directors vs Audience**  
    - Stacked area chart comparing directors’ contributions.  
