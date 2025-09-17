@@ -49,7 +49,7 @@ This project explores the audience of the TV series **Friends** across its 10 se
    - Consolidated viewership per season.  
    - Insight: the show averaged **22M–26M viewers per season**, peaking in Season 2.  
    
-   🏆 **Top 5 Episodes by Audience (US Nielsen Ratings; counting two‑parters individually):**  
+   🏆 **Top 5 Episodes by Audience:**  
    1 *“The One After the Superbowl, Part 1”* (S2E12) → **part of 52.9M combined**  
    2 *“The One After the Superbowl, Part 2”* (S2E13) → **part of 52.9M combined**  
    3 *“The Last One, Part 1”* (S10E17) → **part of 52.5M combined**  
