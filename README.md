@@ -5,6 +5,7 @@ This project explores the audience of the TV series **Friends** across its 10 se
 🔗 **Interactive visualizations on Tableau Public**  
 - [Friends TV Series – Audience & Cultural Impact](https://public.tableau.com/views/FriendsTVSeriesProjectDashboardandAnalytics/TheOneWherePeaktoFinale_1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
 - [Tableau Portfolio with Advanced Features – Ana Nobre Santos](https://public.tableau.com/app/profile/ana.nobre/vizzes)  
+- [Power BI with Advanced Features – Ana Nobre Santos](WIP)  
 
 ---
 
@@ -78,27 +79,27 @@ This project explores the audience of the TV series **Friends** across its 10 se
 
 ## 📊 Power BI Visualizations  
 
-**1. Audience Overview**  
-![Power BI Dashboard 1](Power-BI/Dashboard-1-Power-BI.png)  
+**1. Audience Overview by Season & Year**  
+![Power BI Dashboard 1](<Power-BI/(1) Dashboard-Power-BI-(Season-and-Year).png>)  
 - KPIs: total episodes (236), seasons (10), IMDb rating (8.46), total audience (~6B views).  
 - Viewership trends by season and across time (year/quarter/month/day).  
 
-**2. Quotes by Character**  
-![Power BI Dashboard 2](Power-BI/Dashboard-2-Power-BI.png)  
-- Distribution of quotes by character.  
-- Breakdown of iconic phrases (*“Oh my God!”*, *“How you doin’?”*, *“We were on a break!”*).  
-- Dynamic **Season filter** for interactivity.  
+**2. Audience by Episode & Season**  
+![Power BI Dashboard 2](<Power-BI/(2) Dashboard-Power-BI-(Episode-and-Season).png>)  
+- Viewership evolution across episodes within each season.  
+- Highlights spikes for milestone episodes such as the Super Bowl special and the finale.  
 
 **3. Directors & Top Episodes**  
-![Power BI Dashboard 3](Power-BI/Dashboard-3-Power-BI.png)  
+![Power BI Dashboard 3](<Power-BI/(3) Dashboard-Power-BI.png>)  
 - Number of episodes directed by each director.  
 - Correlation between **directors, votes, and average viewers**.  
 - Highlight of the **Top 5 episodes by audience** using a Treemap visualization.  
 
-**4. Audience by Episode Release Day**  
-![Power BI Dashboard 4](Power-BI/Dashboard-4-Power-BI.png)  
-- Evolution of viewership by episode release date.  
-- Spikes visible for milestone episodes (Super Bowl special, finale).  
+**4. Quotes by Character**  
+![Power BI Dashboard 4](<Power-BI/(4) Dashboard-Power-BI.png>)  
+- Distribution of quotes by character.  
+- Breakdown of iconic phrases (*“Oh my God!”*, *“How you doin’?”*, *“We were on a break!”*).  
+- Dynamic **Season filter** for interactivity.
 
 ---
 
@@ -161,43 +162,52 @@ This project goes beyond data visualization. By combining **interactivity (butto
 
 ## 📂 Repository Structure  
 
-```
-Portfolio-Tableau-Friends-Audience-Impact/
+Portfolio-Tableau-Power-Bi-Friends-Audience-Impact
 │
-├── 📄 README.md
-├── 📂 data/                 
+├── 📄 README.md                          
+│
+├── 📂 data/                              
 │   ├── friends_episodes_v3.csv
 │   ├── friends_info.csv
 │   └── friends_quotes.csv
 │
-├── 📂 Power-BI/             
-│   ├── Friends - Power BI.pbix
-│   ├── Dashboard-1-Power-BI.png
+├── 📂 Power-BI/                          
+│   ├── Dashboard-1-Power-BI-(Episode-and-Season).png
+│   ├── Dashboard-1-Power-BI-(Season-and-Year).png
 │   ├── Dashboard-2-Power-BI.png
 │   ├── Dashboard-3-Power-BI.png
-│   └── Dashboard-4-Power-BI.png
+│   └── Friends - Power BI.pbix
 │
-├── 📂 Tableau/              
-│   ├── (1) The One With the Context.twbx
-│   ├── (2) The One Where Peak to Finale.twbx
-│   └── (3) The One With the Highest Ratings.twbx
-```
+├── 📂 Tableau/                           
+│   ├── (1) The One With the Context.png
+│   ├── (2) The One Where Peak to Finale.png
+│   └── (3) The One With the Highest RatingsScreenshot.png
+│
+└── .gitignore
 
 ---
 
 ## 📌 Key Insights  
 
-**Audience consistency**
-Across 10 seasons, Friends maintained unusually steady mass audiences, with typical season averages around 22–26 million and a high around ~31 million in Season 2—evidence of durable loyalty over a long run. The ~5 million gap between a late-series average (~26M) and the Season-2 high (~31M) is itself comparable to the entire audience of many successful primetime shows.
+Audience consistency
+Over ten seasons, Friends kept an unusually steady audience. Most seasons averaged between 22 and 26 million viewers, with a high point around 31 million in Season 2. That gap of about 5 million viewers is striking. To put it in context, it matches the audience size of many U.S. primetime shows (Hollywood Reporter, 2025). It’s also similar to the population of entire states like Wisconsin or Colorado (U.S. Census Bureau, 2024a; 2024b) or even a country such as Norway (~5.6 million) (Statistics Norway, 2025).
 
-**Why peaks happened** 
-The largest spikes were driven by special contexts, not by who directed the episode. “The One After the Superbowl” (S2E12–13), scheduled immediately post-Super Bowl, drew ~52.9M viewers, the series’ all-time high; the finale “The Last One” (S10E17–18) reached ~52.5M through event status and narrative closure.
+Why peaks happened
+The biggest spikes were not about the directors. They came from special contexts. “The One After the Superbowl” (S2E12–13), which aired right after the Super Bowl, pulled in around 52.9M viewers. The finale, “The Last One” (S10E17–18), reached about 52.5M because it was the end of the story.
 
-**Direction wasn’t determinant** 
-Prolific directors such as Kevin S. Bright and Michael Lembeck helmed iconic entries, but week-to-week ratings patterns align more with programming context and character-driven story beats than with specific directors, consistent with the Super Bowl lead-out and finale effects.
+Direction wasn’t determinant
+Directors like Kevin S. Bright and Michael Lembeck were behind many well-known episodes. But ratings didn’t really move with their names. The ups and downs followed the storylines and the timing—big cultural moments, not who was calling the shots behind the camera.
 
-**Iconic quotes** 
-Cultural memory, not weekly spikes. Catchphrases powered long-tail appeal rather than immediate overnights. Notably, Joey says “How you doin’?” ~22 times across 236 episodes—far fewer than many remember—illustrating how a handful of sticky moments became brand-defining and kept the show culturally present decades later.
+Iconic quotes
+Catchphrases didn’t drive immediate ratings. Their impact came later, as part of the show’s long-term memory. Joey only says “How you doin’?” about 22 times in 236 episodes, yet fans remember it as if it happened every week. That shows how a few sticky lines shaped the brand of Friends and kept it alive in culture decades later.
+
+Hollywood Reporter (2025) ‘TV Ratings: All 112 Shows That Averaged 5 Million or More Viewers in 2024–25’. Available at: https://www.hollywoodreporter.com/tv/tv-news/2024-25-tv-season-100-biggest-shows-ratings-1236257863/ (Accessed 17 September 2025).
+
+U.S. Census Bureau (2024a) QuickFacts: Wisconsin. Available at: https://www.census.gov/quickfacts/WI (Accessed 17 September 2025).
+
+U.S. Census Bureau (2024b) QuickFacts: Colorado. Available at: https://www.census.gov/quickfacts/CO (Accessed 17 September 2025).
+
+Statistics Norway (2025) Population. Available at: https://www.ssb.no/en (Accessed 17 September 2025).
 
 ---
 
