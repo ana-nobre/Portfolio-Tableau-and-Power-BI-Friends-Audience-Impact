@@ -93,7 +93,7 @@ This project explores the audience of the TV series **Friends** across its 10 se
 ![Power BI Dashboard 3](<Power-BI/(3) Dashboard-Power-BI.png>)  
 - Number of episodes directed by each director.  
 - Correlation between **directors, votes, and average viewers**.  
-- Highlight of the **Top 5 episodes by audience** using a Treemap visualization.  
+- Highlight of the **Top 5 episodes by votes** using a Treemap visualization.  
 
 **4. Quotes by Character**  
 ![Power BI Dashboard 4](<Power-BI/(4) Dashboard-Power-BI.png>)  
