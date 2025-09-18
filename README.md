@@ -221,8 +221,17 @@ The biggest spikes were not about the directors. They came from special contexts
 Direction wasn’t determinant
 Directors like Kevin S. Bright and Michael Lembeck were behind many well-known episodes. But ratings didn’t really move with their names. The ups and downs followed the storylines and the timing—big cultural moments, not who was calling the shots behind the camera.
 
+Engagement beyond TV
+It’s important to highlight that we’re not talking here about traditional TV audience, but rather about fan engagement on IMDb. Each episode can be rated by users, and the number of votes reflects how many people actively left a score—regardless of whether it was high or low.
+
+When looking at the chart, we see that the series starts very strong, with just over ~100k votes in Season 1, and then gradually declines to ~65k. This points to a reduction in online engagement over time, even though the fan base remained wide. Analytically, these “votes” can be read as a proxy for how much interest fans kept showing in the series year after year.
+
 Iconic quotes
-Catchphrases didn’t drive immediate ratings. Their impact came later, as part of the show’s long-term memory. Joey only says “How you doin’?” about 22 times in 236 episodes, yet fans remember it as if it happened every week. That shows how a few sticky lines shaped the brand of Friends and kept it alive in culture decades later.
+Catchphrases didn’t drive immediate ratings. Their impact came later, as part of the show’s long-term memory. A good example is Joey’s “How you doin’?”. Many people think he said it dozens of times, when in reality it appears only ~22 times across all 236 episodes. What makes it unforgettable isn’t the absolute number, but the weight of each moment:
+
+🔹 Joey uses it in very marked comic situations, so the context makes each repetition stronger.
+🔹 Those ~22 occurrences were rewatched millions of times in DVDs and streaming, amplifying the memory.
+🔹 The phrase was reinforced outside the show—merchandising, interviews, memes—until it became pop culture itself.
 
 Hollywood Reporter (2025) ‘TV Ratings: All 112 Shows That Averaged 5 Million or More Viewers in 2024–25’. Available at: https://www.hollywoodreporter.com/tv/tv-news/2024-25-tv-season-100-biggest-shows-ratings-1236257863/ (Accessed 17 September 2025).
 
