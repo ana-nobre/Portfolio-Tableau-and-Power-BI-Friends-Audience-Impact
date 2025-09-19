@@ -5,7 +5,7 @@ This project explores the audience of the TV series **Friends** across its 10 se
 🔗 **Interactive visualizations on Tableau Public**  
 - [Friends TV Series – Audience & Cultural Impact](https://public.tableau.com/views/FriendsTVSeriesProjectDashboardandAnalytics/TheOneWherePeaktoFinale_1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
 - [Tableau Portfolio with Advanced Features – Ana Nobre Santos](https://public.tableau.com/app/profile/ana.nobre/vizzes)  
-- [Power BI with Advanced Features – Ana Nobre Santos](WIP)  
+- [Power BI with Advanced Features – Ana Nobre Santos](https://github.com/ana-nobre/Data-Driven-Insights-for-Multinationals-Global-CO2-Emissions)  
 
 ---
 
