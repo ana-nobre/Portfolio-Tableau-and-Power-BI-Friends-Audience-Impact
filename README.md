@@ -252,3 +252,5 @@ Statistics Norway (2025) Population. Available at: https://www.ssb.no/en (Access
 ---
 
 📂 This project is part of my **Data Analytics portfolio**, showcasing the blend of **data visualization, interactivity, and storytelling** applied to one of the most popular TV series of all time. Explore my [**Tableau Public**](https://public.tableau.com/app/profile/ana.nobre/vizzes) and [**GitHub**](https://github.com/ananobre) for more projects featuring advanced **Tableau** and **Power BI** techniques.
+
+
